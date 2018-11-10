@@ -1,0 +1,2 @@
+# RARBG highlight new torrents
+As the name says, this really small extension very rudimentally highlights new torrents on rarbg. Once you clean the "tag", it saves the time of the newest torrent on the page you are at.
