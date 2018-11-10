@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Rarbg Highligher",
+    "version": "0.1",
+
+    "default_locale": "en",
+    "description": "__MSG_extensionDescription__",
+    "icons": {},
+
+    "author": "TJSoler",
+
+    "content_scripts": [
+        {
+            "matches": ["https://rarbgmirror.xyz/torrents*"],
+            "js": ["background.js"]
+        }
+    ],
+
+    "permissions": ["activeTab", "declarativeContent", "storage"]
+}
