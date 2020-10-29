@@ -1,13 +1,13 @@
 {
     "manifest_version": 2,
-    "name": "Rarbg Highligher",
+    "name": "__MSG_extensionName__",
     "version": "0.1",
 
     "default_locale": "en",
     "description": "__MSG_extensionDescription__",
     "icons": {},
 
-    "author": "TJSoler",
+    "author": "Shemes",
 
     "content_scripts": [
         {
