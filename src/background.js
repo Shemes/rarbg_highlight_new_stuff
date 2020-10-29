@@ -1,5 +1,6 @@
 const dateQuerySelector = 'td:nth-child(3)';
 const rowClassName = 'lista2';
+const removeTaggedNewButtonText = chrome.i18n.getMessage("extensionButton")
 
 let rows = document.getElementsByClassName(rowClassName);
 
@@ -21,7 +22,7 @@ function highlight() {
 
 function addCleanButton() {
     let pager = document.getElementById("pager_links")
-    let buttonHtml = `<div style="margin-top: 20px;" id="ext_new_styling"><a href="#">Remove tagged as new</a></div>`;
+    let buttonHtml = `<div style="margin-top: 20px;" id="ext_new_styling"><a href="#">${removeTaggedNewButtonText}</a></div>`;
     
     pager.insertAdjacentHTML('beforeend', buttonHtml);
     document.getElementById('ext_new_styling').addEventListener('click', () => setLastVisit());

@@ -1,5 +1,11 @@
 {
     "extensionDescription": {
         "message": "Highlights the new items since your last visit on rarbg."
+    },
+    "extensionName": {
+        "message": "Rarbg Highligher"
+    },
+    "extensionButton": {
+        "message": "Remove tagged as new"
     }
 }
