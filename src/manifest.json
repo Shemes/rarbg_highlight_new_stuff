@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "__MSG_extensionName__",
-    "version": "0.1",
+    "version": "0.2",
 
     "default_locale": "en",
     "description": "__MSG_extensionDescription__",
@@ -13,10 +13,23 @@
 
     "content_scripts": [
         {
-            "matches": ["https://rarbgmirror.xyz/torrents*"],
-            "js": ["background.js"]
+            "matches": [
+                "https://rarbgmirror.xyz/torrents*",
+                "https://rarbgto.org/torrents*",
+                "https://rarbgunblock.com/torrents*",
+                "https://rarbgaccess.org/torrents*",
+                "https://rarbgprx.org/torrents*",
+                "https://rarbgproxy.org/torrents*"
+            ],
+            "js": [
+                "background.js"
+            ]
         }
     ],
 
-    "permissions": ["activeTab", "declarativeContent", "storage"]
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage"
+    ]
 }
