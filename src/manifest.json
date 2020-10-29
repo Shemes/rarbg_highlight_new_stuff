@@ -5,7 +5,9 @@
 
     "default_locale": "en",
     "description": "__MSG_extensionDescription__",
-    "icons": {},
+    "icons": {
+        "52": "./icons/icon.png"
+    },
 
     "author": "Shemes",
 
