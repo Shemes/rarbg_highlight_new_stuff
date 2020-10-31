@@ -15,7 +15,13 @@
         {
             "matches": [
                 "https://rarbgmirror.xyz/torrents*",
+                "http://rarbgmirror.xyz/torrents*",
+                "https://rarbgmirror.com/torrents*",
+                "http://rarbgmirror.com/torrents*",
                 "https://rarbgto.org/torrents*",
+                "http://rarbgto.org/torrents*",
+                "https://rarbg.to/torrents*",
+                "http://rarbg.to/torrents*",
                 "https://rarbgunblock.com/torrents*",
                 "https://rarbgaccess.org/torrents*",
                 "https://rarbgprx.org/torrents*",
